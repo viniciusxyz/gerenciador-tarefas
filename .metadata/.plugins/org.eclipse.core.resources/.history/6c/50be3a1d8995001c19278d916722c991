@@ -1,0 +1,11 @@
+package br.com.tarefasparafazer.repository;
+
+import br.com.tarefasparafazer.model.Tarefa;
+
+public class TarefaRepository {
+	
+	public interface TarefaRepository extends Jparespository<Tarefa, Long>{
+		
+	}
+
+}

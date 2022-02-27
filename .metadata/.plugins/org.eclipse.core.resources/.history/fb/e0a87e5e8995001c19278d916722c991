@@ -1,0 +1,14 @@
+package br.com.tarefasparafazer.repository;
+
+import org.springframework.stereotype.Repository;
+
+import br.com.tarefasparafazer.model.Tarefa;
+
+public class TarefaRepository {
+	
+	@Repository
+	public interface TarefaRepository extends JpaRespository<Tarefa, Long>{
+		
+	}
+
+}
